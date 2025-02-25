@@ -1,0 +1,217 @@
+@import url(reset.css);
+
+body {
+  color: white;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 400;
+  background-color: #1e1e1e;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.content-section {
+  box-sizing: border-box;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.content-section_theme_dark {
+  color: #f5f5f5;
+  background-color: #1e1e1e;
+}
+
+.content-section_theme_bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 20px;
+}
+
+.header__logo-image {
+  top: 0;
+  width: 80px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  list-style: none;
+}
+
+.header__menu-link {
+  border-bottom: 1px solid currentColor;
+  color: white;
+  text-decoration: none;
+}
+
+.header__menu-item_active {
+  border: none;
+}
+
+.cover {
+  padding: 8px 20px 4px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 94% auto;
+}
+
+.cover__title {
+  font-size: 72px;
+  line-height: 1;
+}
+
+.cover__title__last-row {
+  padding-right: 4px;
+}
+
+.accent-span {
+  display: flex;
+  flex-direction: column;
+  font-family: 'EB Garamond', Arial, serif;
+}
+
+.intro {
+  padding: 30px 20px 38px;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.intro__title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.intro__heading {
+  display: flex;
+}
+
+.intro__main-text {
+  line-height: 135%;
+}
+
+.intro__main-text_block {
+  margin-top: 24px;
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 115%;
+}
+
+.content-section__introduction {
+  margin: 32px 0;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  margin-left: 15px;
+}
+
+.content-section__list-item {
+  line-height: 1.335;
+}
+
+.content-section__list-accent {
+  font-weight: bold;
+}
+
+.how-to {
+  padding: 40px 20px 0;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.card__author-name {
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+.card__content {
+}
+
+.card__title {
+  margin-bottom: 8px;
+  font-family: 'EB Garamond', Arial, serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 135%;
+}
+
+.card__text {
+  line-height: 1.34375;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  border-top: 1px solid #fee42a;
+  padding: 20px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.footer__link {
+  color: #f5f5f5;
+  font-size: 14px;
+  text-decoration: none;
+}
